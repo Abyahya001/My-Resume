@@ -1,0 +1,130 @@
+/* Created by Yahaya Abubakar */
+
+#outer_container{
+    background-color: #e3a065;
+}
+
+#inner_container{
+    padding: 15px 0;
+}
+
+.block{
+    font-family:"Arial Narrow","Arial","Agency FB";
+    background: white;
+    box-shadow: 3px 3px 3px 3px black;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#contents_div .block{
+    margin-bottom: 10px;
+}
+
+#profile_block{
+    margin-top: 5px;
+    text-align:center;
+}
+
+#contact_info{
+    font-size: 130%;
+}
+
+#contact_info a{
+    text-decoration: underline;
+    color: #0D15AC;
+}
+#interests {color: black}
+#interests i{
+    width: 150px;
+    height: 100px;
+    margin: 5px 0 ;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    border-radius: 10%;
+}
+#interests p{
+    font-size: 25%;
+    text-transform: uppercase;
+    font-family:"Arial Narrow";
+    margin-top: 5px;
+}
+#profile_block #profile_pic{
+    padding: 10px;
+}
+
+.result{
+    font-size: 80%;
+    color: green;
+}
+
+.block_heading{
+    color: white;
+    font-weight:bold;
+    background: black;
+    font-size: 2rem;
+    font-family:"Arial Narrow";
+    padding: 5px 0 5px 0;
+    -webkit-box-shadow: 1px 1px 1px 1px darkgrey;
+    -moz-box-shadow: 1px 1px 1px 1px darkgrey;
+    box-shadow: 1px 1px 1px 1px darkgrey;
+}
+
+#contents_div .block_heading{
+    font-size: 200%;
+}
+
+.iconic{
+    margin-right:10px;
+    text-indent:5px;
+}
+
+.block_description{
+    font-family: SansSerif,sans-serif;
+    padding: 5px 5px;
+    text-indent: 5%;
+    text-align: justify;
+    -ms-text-justify: inter-word;
+    text-justify: inter-word;
+    font-size: 110%;
+}
+.iconic_small{
+    width: 30px;
+}
+.degree_title{
+    font-size: 145%;
+    font-weight:bold;
+    display: block;
+    color: blue;
+}
+.institute{
+    color: #0D15AC;
+    font-size: 110%;
+    font-weight:bold;
+}
+.year_graduated{
+    font-size: 110%;
+    padding: 5px;
+    color:darkred;
+    font-weight:bold;
+}
+
+.seperater{
+    margin: 10px 0;
+    border: groove red 1px;
+    clear: both;
+}
+
+.skill_container{
+    padding: 0;
+    background: #e9ecef;
+    margin: 10px 0 ;
+}
+
+.skill_level{
+    text-indent: 2%;
+    background:orange;
+    color: black;
+    font-size: 110%;
+    padding: 2px;
+    font-weight:bold;
+}
